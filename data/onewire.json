@@ -1,0 +1,29 @@
+{
+    "busses":[
+        {
+            "pin":15,
+            "sensors":[
+                {
+                    "id":"gfhbklh",
+                    "type":"thermometer",
+                    "location": "Compartment"
+                },
+                {
+                    "id":"gfhbklh",
+                    "type":"thermometer",
+                    "location": "Alternator"
+                },
+                {
+                    "id":"gfhbklh",
+                    "type":"thermometer",
+                    "location": "Exhaust"
+                },
+                {
+                    "id":"gfhbklh",
+                    "type":"thermometer",
+                    "location": "Cylinder Head"
+                }
+            ]
+        }
+    ]
+}
