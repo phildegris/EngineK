@@ -1,13 +1,13 @@
-# Engine Toy: a boat toys producer node
+# EngineK: a boat toys producer node
 
 This project produces engine related SignalK events and measurements. It is built using the SensESP framework [SensESP documentation site](https://signalk.org/SensESP/).
 
 ## Part of a Boat Toys Network
 
-### Binary Sensors
+### Binary Sensors (Switches on 12v Circuits)
 
-- Engine High Temperature - VP 2003
-- Engine Low Oil Pressure - VP 2003
+- Engine High Temperature
+- Engine Low Oil Pressure
 - Raw Water Intake Flow
 - Bilge Water Switch
 - Forward Hatch Open
@@ -24,7 +24,6 @@ This project produces engine related SignalK events and measurements. It is buil
 ### Analog sensors
 - Alternator RPM 
 - Alternator Output Current
-
 
 ## Connections to Node
 
@@ -50,4 +49,3 @@ Alternator W Terminal
 
 1. Connections to Analog Input Headers
 2. Alternator Output Current A4 (GPIO36)
-
