@@ -1,3 +1,3 @@
-void configureBusses();
-void configureBus(uint8_t pin);
+void configure_busses();
+void configure_bus(uint8_t pin);
 

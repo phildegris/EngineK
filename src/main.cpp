@@ -46,8 +46,8 @@ void setup() {
                     //->set_sk_server("192.168.10.3", 80)
                     ->get_app();
                     
-  configureBusses();
-  configureSwitches();
+  configure_busses();
+  configure_switches();
 
   sensesp_app->start();
 

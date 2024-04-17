@@ -14,15 +14,15 @@
 
 using namespace sensesp;
 
-void configureBusses(){
+void configure_busses(){
 
-   configureBus(GPIO_TEMPERATURE_BUS_PIN);
+   configure_bus(GPIO_TEMPERATURE_BUS_PIN);
 
 }
 
 /// @brief 
 /// @param pin 
-void configureBus(uint8_t pin){
+void configure_bus(uint8_t pin){
 
 
     Serial.printf("Configuring OneWire Bus on Pin %i", pin);
